@@ -1,0 +1,48 @@
+/* set background color to beige */
+body {
+    background-color: beige;
+}
+
+strong {
+    color: #d2691e;
+    font-size: 1.25em;
+}
+
+em {
+    color: rgb(255, 195, 0);
+}
+
+b {
+    color: hsl(337, 92%, 31%)
+}
+
+span {
+    font-size: 1.25rem;
+}
+
+/* class selector
+.wrapper {
+    width: 400px;
+    border: 5px solid rebeccapurple;
+} */
+
+/* center text and adjust font size */
+.author {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* center the header */
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* adjust size of header 2 */
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
