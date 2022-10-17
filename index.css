@@ -106,9 +106,9 @@ input:active {
     color: red;
 }
 
-/* * {
+* {
     background-color:bisque;
-} */
+}
 
 .attendance {
     display: flex;
