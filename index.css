@@ -34,9 +34,17 @@ b {
     color: hsl(337, 92%, 31%)
 }
 
+p, h3 {
+    background-color: beige;
+}
+
 span {
     font-size: 1.25rem;
     margin:auto;
+}
+
+li[class="a"] {
+    background-color: yellow;
 }
 
 ul {
