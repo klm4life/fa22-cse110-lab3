@@ -47,6 +47,10 @@ ul {
     border: 5px solid rebeccapurple;
     padding: 10px;
     height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-self:center;
 }
 
 /* center text and adjust font size */
@@ -94,3 +98,15 @@ button:hover {
 input:active {
     color: red;
 }
+
+/* * {
+    background-color:bisque;
+} */
+
+.attendance {
+    display: flex;
+    justify-content: flex-start;
+    align-self: auto;
+    flex: none;
+}
+
