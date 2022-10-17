@@ -1,6 +1,13 @@
+@media only screen and (min-width: 800px) {
+
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoCondensed-Light.ttf);
+}
 /* set background color to beige */
 body {
     background-color: beige;
+    font-family: Roboto;
 }
 
 strong {
@@ -110,3 +117,4 @@ input:active {
     flex: none;
 }
 
+}
