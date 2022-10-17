@@ -6,6 +6,15 @@ body {
 strong {
     color: #d2691e;
     font-size: 1.25em;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+details {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 em {
@@ -18,13 +27,24 @@ b {
 
 span {
     font-size: 1.25rem;
+    margin:auto;
 }
 
-/* class selector
+ul {
+    margin: 10px;
+}
+
+.unfinished {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* class selector */
 .wrapper {
-    width: 400px;
+    width: 500px;
     border: 5px solid rebeccapurple;
-} */
+    padding: 10px;
+}
 
 /* center text and adjust font size */
 .author {
@@ -45,4 +65,11 @@ h2 {
 
 h3 {
     font-size: 1.375rem;
+}
+
+#comments {
+    border-style: dashed;
+    border-color: brown;
+    border-radius: 0%;
+    border-width: 2px;
 }
