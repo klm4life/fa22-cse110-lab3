@@ -16,7 +16,7 @@ details {
     padding-bottom: 10px;
     padding-right: 10px;
     text-align: center;
-    
+    position: sticky;
 }
 
 em {
@@ -77,6 +77,7 @@ h3 {
     border-color: brown;
     border-radius: 0%;
     border-width: 2px;
+    position: relative;
 }
 
 form {
@@ -84,4 +85,12 @@ form {
     margin-left: 300px;
     max-width: fit-content;
     min-width: none;
+}
+
+button:hover {
+    color: blue;
+}
+
+input:active {
+    color: red;
 }
